@@ -56,7 +56,7 @@ jobs:
       # prepare the database
       - run:
           name: "Create a database"
-          command: touch storage/database.sqlite
+          command: touch database/database.sqlite
 
       - run:
           name: "Generate app key"
